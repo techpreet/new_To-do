@@ -15,7 +15,7 @@ const Todo = () => {
     const [toggle,setToggle] = useState(false)
     const addItems=()=>{
         if(!myData){
-            alert("fill todo item ggg");
+            alert("fill todo item ");
         }
         else if (myData && toggle) {
             setMyItems(
